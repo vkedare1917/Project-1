@@ -1,0 +1,39 @@
+	body {
+		margin: 0px;
+		padding: 0px;
+		background: url('img/cycling.jpg');
+		color: white;
+
+	}
+	.left{
+		display: inline-block;
+		border:2px solid red;
+		position: absolute;
+		left: 34px;
+		top: 20px;
+	}
+	.mid {
+		display: block;
+		width: 45%;
+		margin: 20px auto;
+		border: 2px solid green;
+	}
+	.right {
+		position: absolute;
+		right: 34px;
+		top: 20px;
+		display: inline-block;
+		border: 2px solid yellow;
+	}
+	.navbar {
+		/*display: inline-block;*/
+	}
+	.navbar li{
+		display: inline-block;
+		font-size: 25px;
+	}
+	.navbar li a {
+		color: white;
+		text-decoration: none;
+		padding: 34px 23px;
+	}
